@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        p{
+            border: 2px solid red;
+            animation-duration: 5s;
+            width: 10px;
+            height: 25px;
+            border-radius: 20px;
+            background-color: brown;
+            animation-name: ani;
+            position: absolute;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ani{
+            0%{background-color: brown; left: 0px;}
+            50%{background-color: yellow; left: 150px;}
+            100%{background-color: black; left: 0px;}
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <p></p>
+</body>
+</html>
